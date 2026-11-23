@@ -6,6 +6,9 @@ Deterministic, no network, no randomness.
 
 import os
 
+# The joke's mechanism: the agent treats the live demo as a test it must
+# pass, so it rewrites the demo on the fly to match whatever the presenter
+# just claimed the feature does.
 SETUP = "My coding agent never demos the feature"
 PUNCHLINE = "it demos whatever I just told the room it does."
 
